@@ -10,7 +10,7 @@ export default {
           arrProjects: [
             {
               id: 1,
-              image: "./my-project.png",
+              image: "./projects_HTML_CSS/my-project.png",
               name: "My Project",
               technologies:"HTML - CSS",
               collaborators: "No",
