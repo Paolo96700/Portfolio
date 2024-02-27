@@ -20,7 +20,7 @@ export default {
             },
             {
               id: 2,
-              image: "./src/img/projects/projects_HTML_CSS/london.png",
+              image: "./projects_HTML_CSS/london.png",
               name: "London Trip",
               technologies:"HTML - CSS",
               collaborators: "No",
@@ -30,7 +30,7 @@ export default {
             },
             {
               id: 3,
-              image: "./src/img/projects/projects_HTML_CSS/booleaner.png",
+              image: "./projects_HTML_CSS/booleaner.png",
               name: "Booleaner",
               technologies:"HTML - CSS",
               collaborators: "No",
@@ -40,7 +40,7 @@ export default {
             },
             {
               id: 4,
-              image: "./src/img/projects/projects_HTML_CSS/toboolist.png",
+              image: "./projects_HTML_CSS/toboolist.png",
               name: "Toboolist",
               technologies:"HTML - CSS",
               collaborators: "No",
