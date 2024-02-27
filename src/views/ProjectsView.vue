@@ -10,8 +10,7 @@ export default {
           arrProjects: [
             {
               id: 1,
-              image: "./src/img/img_projects/projects_HTML_CSS/my-project.png",
-              image: "https://portfolio-paolo.netlify.app/src/img/img_projects/projects_HTML_CSS/my-project.png",
+              image: "./src/img/my-project.png",
               name: "My Project",
               technologies:"HTML - CSS",
               collaborators: "No",
