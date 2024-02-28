@@ -196,7 +196,9 @@
         <div class="container m-auto flex flex-col md:flex-row lg:flex-row justify-center gap-2 lg:gap-12">
             <div class="flex flex-col items-center">
                 <h5 class="text-2xl lg:text-3xl my-12 font-bold">Ecco i miei progetti!</h5>
-                <Button_project />
+                <RouterLink to="/projects">
+                    <Button_project />
+                </RouterLink>
             </div>
             <div class="flex flex-col items-center">
                 <h5 class="text-2xl lg:text-3xl my-12 font-bold">Ecco i miei contatti!</h5>
