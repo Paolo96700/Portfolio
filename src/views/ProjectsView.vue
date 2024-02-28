@@ -588,67 +588,71 @@ export default {
 <template>
   <section class="section">
     <div class="about container_main m-auto">
-        <div v-for="groupProjects in projects" :key="groupProjects.projectTypes" class="flex flex-col justify-center items-center">
-          <button class="btn mt-12 mb-3 mx-4" type="button">
-            <strong><h1 class="p-4 md:text-2xl lg:text-4xl font-bold">{{ groupProjects.projectTypes }}</h1></strong>
-            <div id="container-stars">
-              <div id="stars"></div>
-            </div>
+      <div v-for="groupProjects in projects" :key="groupProjects.projectTypes" class="flex flex-col justify-center items-center">
+        <button 
+        class="btn mt-12 mb-3 mx-4" type="button" 
+        data-aos="fade-up" data-aos-duration="800" data-aos-delay="400"
+        >
+          <strong><h1 class="p-4 md:text-2xl lg:text-4xl font-bold">{{ groupProjects.projectTypes }}</h1></strong>
+          <div id="container-stars">
+            <div id="stars"></div>
+          </div>
 
-            <div id="glow">
-              <div class="circle"></div>
-              <div class="circle"></div>
-            </div>
-          </button>
+          <div id="glow">
+            <div class="circle"></div>
+            <div class="circle"></div>
+          </div>
+        </button>
 
-          
-          <div class="container_card flex flex-wrap justify-center gap-3 p-8">
-            <div v-for="project in groupProjects.arrProjects" :key="project" >
-              <div class="card bg-gray-800 border border-gray-500 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 hover:hover:scale-105 transition-all duration-500"
-                style="width:300px; height: 480px;"
-              >
-                  
-                <img class="rounded-t-lg w-96" :src="project.image" alt="" style="height: 40%;"/>
-                  
-                <div class="p-5 flex flex-col justify-between" style="height: 60%;">
-                  <div>
-                    <a :href="project.github" target="_blank">
-                      <h5 class="mb-2 text-2xl font-bold tracking-tight text-blue-500 dark:text-white">{{ project.name }}</h5>
+        
+        <div class="container_card flex flex-wrap justify-center gap-3 p-8">
+          <div 
+          v-for="project in groupProjects.arrProjects" :key="project" 
+          data-aos="fade-up" data-aos-duration="800" data-aos-delay="500"
+          >
+            <div class="card bg-gray-800 border border-gray-500 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 hover:hover:scale-105 transition-all duration-500"
+              style="width:300px; height: 480px;"
+            >
+                
+              <img class="rounded-t-lg w-96" :src="project.image" alt="" style="height: 40%;"/>
+                
+              <div class="p-5 flex flex-col justify-between" style="height: 60%;">
+                <div>
+                  <a :href="project.github" target="_blank">
+                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-blue-500 dark:text-white">{{ project.name }}</h5>
+                  </a>
+                  <p class="mb-3 text-sm text-gray-200 dark:text-gray-200 font-bold"><span class="font-bold text-red-600">Tecnologies: </span>{{ project.technologies }}</p>
+                  <p class="mb-3 font-normal text-xs text-gray-200 dark:text-gray-200"><span class="font-bold text-blue-400">Collaborators: </span>{{ project.collaborators }}</p>
+                  <p class="h-8 mb-3 font-normal text-xs text-gray-200 dark:text-gray-200"><span class="font-bold text-blue-400">Description: </span>{{ project.description }}</p>
+                </div>
+                <div>
+                  <button>
+                    <a 
+                      v-if="(project.link === '')"
+                      class="inline-flex items-center px-3 py-2 text-sx font-medium text-center text-white bg-gray-700 rounded-lg mr-1"
+                      >
+                        Netlify
                     </a>
-                    <p class="mb-3 text-sm text-gray-200 dark:text-gray-200 font-bold"><span class="font-bold text-red-600">Tecnologies: </span>{{ project.technologies }}</p>
-                    <p class="mb-3 font-normal text-xs text-gray-200 dark:text-gray-200"><span class="font-bold text-blue-400">Collaborators: </span>{{ project.collaborators }}</p>
-                    <p class="h-8 mb-3 font-normal text-xs text-gray-200 dark:text-gray-200"><span class="font-bold text-blue-400">Description: </span>{{ project.description }}</p>
-                  </div>
-                  <div>
-                    <button>
-                      <a 
-                        v-if="(project.link === '')"
-                        class="inline-flex items-center px-3 py-2 text-sx font-medium text-center text-white bg-gray-700 rounded-lg mr-1"
-                        >
-                          Netlify
-                      </a>
-                      <a 
-                        v-else
-                        :href="project.link" 
-                        target="_blank" 
-                        class="inline-flex items-center px-3 py-2 text-sx font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-2 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 mr-1"
-                        >
-                          Netlify
-                      </a>
-                    </button>
-                  
-                    <a :href="project.github" target="_blank" class="inline-flex items-center px-3 py-2 text-sx font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-2 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-                      Github
+                    <a 
+                      v-else
+                      :href="project.link" 
+                      target="_blank" 
+                      class="inline-flex items-center px-3 py-2 text-sx font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-2 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 mr-1"
+                      >
+                        Netlify
                     </a>
-                  </div>
+                  </button>
+                
+                  <a :href="project.github" target="_blank" class="inline-flex items-center px-3 py-2 text-sx font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-2 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                    Github
+                  </a>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-   
-    
+    </div>
   </section>
   
 </template>
@@ -657,6 +661,7 @@ export default {
   .section{
     background-image: url(./../img/space_back.jpeg);
     background-size: contain;
+    padding-bottom:100px
   }
 
   .card{
