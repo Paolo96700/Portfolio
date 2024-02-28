@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "aos": "^2.3.4",
     "flowbite": "^2.2.1",
     "font-awesome": "^4.7.0",
     "vue": "^3.4.15",
