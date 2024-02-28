@@ -10,7 +10,7 @@ export default {
           arrProjects: [
             {
               id: 1,
-              image: "./projects_HTML_CSS/my-project.png",
+              image: "./img_projects/projects_HTML_CSS/my-project.png",
               name: "My Project",
               technologies:"HTML - CSS",
               collaborators: "No",
@@ -20,7 +20,7 @@ export default {
             },
             {
               id: 2,
-              image: "./projects_HTML_CSS/london.png",
+              image: "./img_projects/projects_HTML_CSS/london.png",
               name: "London Trip",
               technologies:"HTML - CSS",
               collaborators: "No",
@@ -30,7 +30,7 @@ export default {
             },
             {
               id: 3,
-              image: "./projects_HTML_CSS/booleaner.png",
+              image: "./img_projects/projects_HTML_CSS/booleaner.png",
               name: "Booleaner",
               technologies:"HTML - CSS",
               collaborators: "No",
@@ -40,7 +40,7 @@ export default {
             },
             {
               id: 4,
-              image: "./projects_HTML_CSS/toboolist.png",
+              image: "./img_projects/projects_HTML_CSS/toboolist.png",
               name: "Toboolist",
               technologies:"HTML - CSS",
               collaborators: "No",
@@ -50,7 +50,7 @@ export default {
             },
             {
               id: 5,
-              image: "./src/img/projects/projects_HTML_CSS/responsive.png",
+              image: "./img_projects/projects_HTML_CSS/responsive.png",
               name: "Responsive",
               technologies:"HTML - CSS",
               collaborators: "No",
@@ -60,7 +60,7 @@ export default {
             },
             {
               id: 6,
-              image: "./src/img/projects/projects_HTML_CSS/wannabe.png",
+              image: "./img_projects/projects_HTML_CSS/wannabe.png",
               name: "Responsive Wannabe",
               technologies:"HTML - CSS",
               collaborators: "No",
@@ -70,7 +70,7 @@ export default {
             },
             {
               id: 7,
-              image: "./src/img/projects/projects_HTML_CSS/floatcards.png",
+              image: "./img_projects/projects_HTML_CSS/floatcards.png",
               name: "Float Cards",
               technologies:"HTML - CSS",
               collaborators: "No",
@@ -80,7 +80,7 @@ export default {
             },
             {
               id: 8,
-              image: "./src/img/projects/projects_HTML_CSS/discord.png",
+              image: "./img_projects/projects_HTML_CSS/discord.png",
               name: "Discord",
               technologies:"HTML - CSS",
               collaborators: "No",
@@ -90,7 +90,7 @@ export default {
             },
             {
               id: 9,
-              image: "./src/img/projects/projects_HTML_CSS/boolando.png",
+              image: "./img_projects/projects_HTML_CSS/boolando.png",
               name: "Boolando",
               technologies:"HTML - CSS",
               collaborators: "No",
@@ -100,7 +100,7 @@ export default {
             },
             {
               id: 10,
-              image: "./src/img/projects/projects_HTML_CSS/zoom.png",
+              image: "./img_projects/projects_HTML_CSS/zoom.png",
               name: "Boolando",
               technologies:"HTML - CSS",
               collaborators: "No",
@@ -110,7 +110,7 @@ export default {
             },
             {
               id: 11,
-              image: "./src/img/projects/projects_HTML_CSS/animations.png",
+              image: "./img_projects/projects_HTML_CSS/animations.png",
               name: "Animation Filter",
               technologies:"HTML - CSS",
               collaborators: "No",
@@ -120,7 +120,7 @@ export default {
             },
             {
               id: 12,
-              image: "./src/img/projects/projects_HTML_CSS/dropbox.png",
+              image: "./img_projects/projects_HTML_CSS/dropbox.png",
               name: "Dropbox",
               technologies:"HTML - CSS",
               collaborators: "No",
@@ -130,7 +130,7 @@ export default {
             },
             {
               id: 13,
-              image: "./src/img/projects/projects_HTML_CSS/spotifyweb.png",
+              image: "./img_projects/projects_HTML_CSS/spotifyweb.png",
               name: "Spotify Web",
               technologies:"HTML - CSS",
               collaborators: "No",
@@ -140,7 +140,7 @@ export default {
             },
             {
               id: 14,
-              image: "./src/img/projects/projects_HTML_CSS/bool.png",
+              image: "./img_projects/projects_HTML_CSS/bool.png",
               name: "12 Bool",
               technologies:"HTML - CSS",
               collaborators: "No",
@@ -150,7 +150,7 @@ export default {
             },
             {
               id: 15,
-              image: "./src/img/projects/projects_HTML_CSS/bootdash.png",
+              image: "./img_projects/projects_HTML_CSS/bootdash.png",
               name: "Bootstrap Dashboard",
               technologies:"HTML - CSS",
               collaborators: "No",

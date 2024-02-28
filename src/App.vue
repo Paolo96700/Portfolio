@@ -31,7 +31,7 @@ export default{
             <RouterLink to="/projects" class="ms-1 text-md font-medium text-gray-200 md:ms-2 dark:text-gray-400 dark:hover:text-white">
               <span class="flex items-center text-white">
                 <img src="./img/img_nav/cartel.png" alt="" style="width: 24px;">
-                <span class="mx-1 font-bold hover:text-blue-500">Projects</span>
+                <span class="mx-1 font-bold hover:text-blue-500">Progetti</span>
               </span>
             </RouterLink>
           </div>
@@ -41,7 +41,7 @@ export default{
             <RouterLink to="/contacts" class="ms-1 text-md font-medium text-gray-200 md:ms-2 dark:text-gray-400 dark:hover:text-white">
                 <span class="flex items-center">
                   <img src="./img/img_nav/contacts.png" alt="" style="width: 24px;">
-                  <span class="mx-1 font-bold hover:text-blue-500">Contacts</span>
+                  <span class="mx-1 font-bold hover:text-blue-500">Contatti</span>
                 </span>
             </RouterLink>
           </div>

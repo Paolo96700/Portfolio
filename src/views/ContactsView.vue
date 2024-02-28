@@ -34,7 +34,7 @@
                 <div class="flex flex-col items-center bg-gray-800  rounded-lg shadow md:flex-row md:max-w-xl p-4">
                     
                     <div class="flex flex-col justify-between p-4 leading-normal">
-                        <p class="mb-3 font-bold text-center text-gray-200 dark:text-gray-400">Se sei interessato a collaborare o vuoi semplicemente scambiare idee, non esitare a contattarmi. Sono sempre disponibile per nuove opportunità e progetti stimolanti. Qui trovrai tutti i miei contatti. Sarà un piacere sentirti! </p>
+                        <p class="mb-3 font-bold text-center text-gray-200 dark:text-gray-400">Se sei interessato a collaborare o vuoi semplicemente scambiare idee, non esitare a contattarmi. Sono sempre disponibile per nuove opportunità e progetti stimolanti. Qui troverai tutti i miei contatti. Sarà un piacere sentirti! </p>
                     </div>
                 </div>
             </div>
