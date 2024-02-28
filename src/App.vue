@@ -12,12 +12,12 @@ export default{
 
 <template>
   
-  <header class="font-serif flex justify-center button_header px-2 py-2">
-    <nav class="navbar inline-flex mb-3 space-x-1 md:space-x-2 rtl:space-x-reverse sm:mb-0">
+  <header class="font-serif flex justify-center button_header px-2 py-2 bg-gray-800">
+    <nav class="navbar inline-flex mb-3 space-x-1 md:space-x-2 rtl:space-x-reverse sm:mb-0 ">
       <ul class="flex items-center">
         <li>
           <div class="flex items-center">
-            <RouterLink to="/" class="ms-1 text-md font-medium text-gray-200 md:ms-2 dark:text-gray-400 dark:hover:text-white">
+            <RouterLink to="/" class="ms-1 text-md font-medium text-gray-200 md:ms-2">
               <span class="flex items-center">
                 <img src="./img/img_nav/home.png" alt="" style="width: 24px;">
                 <span class="mx-1 font-bold hover:text-blue-500">Home</span>
@@ -28,7 +28,7 @@ export default{
         </li>
         <li aria-current="page">
           <div class="flex items-center">
-            <RouterLink to="/projects" class="ms-1 text-md font-medium text-gray-200 md:ms-2 dark:text-gray-400 dark:hover:text-white">
+            <RouterLink to="/projects" class="ms-1 text-md font-medium text-gray-200 md:ms-2">
               <span class="flex items-center text-white">
                 <img src="./img/img_nav/cartel.png" alt="" style="width: 24px;">
                 <span class="mx-1 font-bold hover:text-blue-500">Progetti</span>
@@ -38,7 +38,7 @@ export default{
         </li>
         <li aria-current="page">
           <div class="flex items-center">
-            <RouterLink to="/contacts" class="ms-1 text-md font-medium text-gray-200 md:ms-2 dark:text-gray-400 dark:hover:text-white">
+            <RouterLink to="/contacts" class="ms-1 text-md font-medium text-gray-200 md:ms-2">
                 <span class="flex items-center">
                   <img src="./img/img_nav/contacts.png" alt="" style="width: 24px;">
                   <span class="mx-1 font-bold hover:text-blue-500">Contatti</span>
