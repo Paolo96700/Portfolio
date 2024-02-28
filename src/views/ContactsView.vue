@@ -20,19 +20,38 @@
             <h1 class="text-3xl font-bold">Contatti</h1>
         </section>
         <section class="section second_section"> 
-            <div class="container m-auto flex justify-center">
+            <div class="container m-auto flex justify-center"
+            data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500"
+            >
                 <div class="flex flex-col items-center bg-gray-800 rounded-lg shadow md:flex-row  p-4">
                     <img class="object-cover w-full h-full rounded-t-lg md:h-auto md:w-48 md:rounded-none md:rounded-s-lg" src="../img/img_profile/Paolo.jpeg" alt="">
                     <div class="flex flex-col justify-between p-4 leading-normal">
-                        <h3 class="text-4xl md:text-center">Paolo Falco</h3>
-                        <h5 class="mb-3 font-normal text-gray-200 dark:text-gray-400 md:text-center"><span class="font-bold">Mail:</span> paolo.falcoapp@gmail.com</h5>
+                        <h3 
+                        class="text-4xl md:text-center"
+                        data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600"
+                        >
+                            Paolo Falco
+                        </h3>
+                        <h5 
+                        class="mb-3 font-normal text-gray-200 dark:text-gray-400 md:text-center"
+                        data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600"
+                        >
+                            <span class="font-bold">Mail:</span> 
+                            paolo.falcoapp@gmail.com
+                        </h5>
                         <div class="flex flex-wrap justify-center">
-                            <div class="flex flex-col items-center">
+                            <div 
+                            class="flex flex-col items-center" 
+                            data-aos="fade-right" data-aos-duration="1000" data-aos-delay="600"
+                            >
                                 <Button_social />
                                 <Button_social_two />
                                 <Button_social_three />
                             </div>
-                            <div class="flex flex-col items-center px-2">
+                            <div 
+                            class="flex flex-col items-center px-2" 
+                            data-aos="fade-left" data-aos-duration="1000" data-aos-delay="600"
+                            >
                                 <Button_social_four />
                                 <Button_social_five />
                             </div>
@@ -41,7 +60,9 @@
                     </div>
                 </div>
             </div>
-            <div class="container m-auto flex justify-center mt-3">
+            <div class="container m-auto flex justify-center mt-3"
+            data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600"
+            >
                 <div class="flex flex-col items-center bg-gray-800 rounded-lg shadow md:flex-row md:max-w-xl p-4">
                     
                     <div class="flex flex-col justify-between p-4 leading-normal">
@@ -74,7 +95,6 @@
 
     .sub_sub_container {
         background-image: url(./../img/mini_back.jpg);
-        background-size: cover;
-        
+        background-size: cover; 
     }
 </style>
