@@ -2,7 +2,7 @@
     <a href="/projects">
         <button class="cti">
             <div class="CTI">
-                Projects
+                Progetti
             </div>
         </button>
     </a>

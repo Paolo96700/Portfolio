@@ -6,7 +6,7 @@ export default {
       projects: [
         {
           // Projects HTML - CSS
-          projectTypes: "Projects Boolean [HTML - CSS]",
+          projectTypes: "Progetti Boolean [HTML - CSS]",
           arrProjects: [
             {
               id: 1,
@@ -162,11 +162,11 @@ export default {
         },
         {
           // Projects HTML - CSS - JS
-          projectTypes: "Projects Boolean [HTML - CSS - Javascript]",
+          projectTypes: "Progetti Boolean [HTML - CSS - Javascript]",
           arrProjects: [
             {
               id: 1,
-              image: "./src/img/projects/projects_HTML_CSS_JS/img-HTMLCSSJS.jpg",
+              image: "./img_projects/projects_HTML_CSS_JS/img-HTMLCSSJS.jpg",
               name: "Wannabe JS",
               technologies:"HTML - CSS - JS",
               collaborators: "No",
@@ -176,7 +176,7 @@ export default {
             },
             {
               id: 2,
-              image: "./src/img/projects/projects_HTML_CSS_JS/img-HTMLCSSJS.jpg",
+              image: "./img_projects/projects_HTML_CSS_JS/img-HTMLCSSJS.jpg",
               name: "Biglietto Treno",
               technologies:"HTML - CSS - JS",
               collaborators: "No",
@@ -186,7 +186,7 @@ export default {
             },
             {
               id: 3,
-              image: "./src/img/projects/projects_HTML_CSS_JS/train.png",
+              image: "./img_projects/projects_HTML_CSS_JS/train.png",
               name: "Biglietto Treno",
               technologies:"HTML - CSS - JS",
               collaborators: "No",
@@ -196,7 +196,7 @@ export default {
             },
             {
               id: 4,
-              image: "./src/img/projects/projects_HTML_CSS_JS/fizzbuzz.png",
+              image: "./img_projects/projects_HTML_CSS_JS/fizzbuzz.png",
               name: "Fizz Buzz",
               technologies:"HTML - CSS - JS",
               collaborators: "No",
@@ -206,7 +206,7 @@ export default {
             },
             {
               id: 5,
-              image: "./src/img/projects/projects_HTML_CSS_JS/img-HTMLCSSJS.jpg",
+              image: "./img_projects/projects_HTML_CSS_JS/img-HTMLCSSJS.jpg",
               name: "Lista Spesa",
               technologies:"HTML - CSS - JS",
               collaborators: "No",
@@ -216,7 +216,7 @@ export default {
             },
             {
               id: 6,
-              image: "./src/img/projects/projects_HTML_CSS_JS/campominatogrid.png",
+              image: "./img_projects/projects_HTML_CSS_JS/campominatogrid.png",
               name: "Campo Minato Grid",
               technologies:"HTML - CSS - JS",
               collaborators: "No",
@@ -226,7 +226,7 @@ export default {
             },
             {
               id: 7,
-              image: "./src/img/projects/projects_HTML_CSS_JS/campominatodom.png",
+              image: "./img_projects/projects_HTML_CSS_JS/campominatodom.png",
               name: "Campo Minato Dom",
               technologies:"HTML - CSS - JS",
               collaborators: "No",
@@ -236,7 +236,7 @@ export default {
             },
             {
               id: 8,
-              image: "./src/img/projects/projects_HTML_CSS_JS/simon.png",
+              image: "./img_projects/projects_HTML_CSS_JS/simon.png",
               name: "Simon",
               technologies:"HTML - CSS - JS",
               collaborators: "No",
@@ -246,7 +246,7 @@ export default {
             },
             {
               id: 9,
-              image: "./src/img/projects/projects_HTML_CSS_JS/carousel.png",
+              image: "./img_projects/projects_HTML_CSS_JS/carousel.png",
               name: "Object Carousel",
               technologies:"HTML - CSS - JS",
               collaborators: "No",
@@ -256,7 +256,7 @@ export default {
             },
             {
               id: 10,
-              image: "./src/img/projects/projects_HTML_CSS_JS/socialpost.png",
+              image: "./img_projects/projects_HTML_CSS_JS/socialpost.png",
               name: "Social Post",
               technologies:"HTML - CSS - JS",
               collaborators: "No",
@@ -268,11 +268,11 @@ export default {
         },
         {
           // Projects Vue.Js - Vite
-          projectTypes: "Projects Boolean [Vue.JS - Vite]",
+          projectTypes: "Progetti Boolean [Vue.JS - Vite]",
           arrProjects: [
             {
               id: 1,
-              image: "./src/img/projects/projects_HTML_CSS_VueJS/slider.png",
+              image: "./img_projects/projects_HTML_CSS_VueJS/slider.png",
               name: "Slider",
               technologies:"HTML - CSS - Vue.js",
               collaborators: "No",
@@ -282,7 +282,7 @@ export default {
             },
             {
               id: 2,
-              image: "./src/img/projects/projects_HTML_CSS_VueJS/todolist.png",
+              image: "./img_projects/projects_HTML_CSS_VueJS/todolist.png",
               name: "Todolist",
               technologies:"HTML - CSS - Vue.js",
               collaborators: "No",
@@ -292,7 +292,7 @@ export default {
             },
             {
               id: 3,
-              image: "./src/img/projects/projects_HTML_CSS_VueJS/boolzapp.png",
+              image: "./img_projects/projects_HTML_CSS_VueJS/boolzapp.png",
               name: "Boolzapp",
               technologies:"HTML - CSS - Vue.js",
               collaborators: "No",
@@ -302,7 +302,7 @@ export default {
             },
             {
               id: 4,
-              image: "./src/img/projects/projects_HTML_CSS_VueJS/emaillist.png",
+              image: "./img_projects/projects_HTML_CSS_VueJS/emaillist.png",
               name: "Email List",
               technologies:"HTML - CSS - Vue.js",
               collaborators: "No",
@@ -312,7 +312,7 @@ export default {
             },
             {
               id: 5,
-              image: "./src/img/projects/projects_HTML_CSS_VueJS/comicsvite.png",
+              image: "./img_projects/projects_HTML_CSS_VueJS/comicsvite.png",
               name: "DC-Comics - Vite",
               technologies:"HTML - CSS - Vue.js - Vite",
               collaborators: "No",
@@ -322,7 +322,7 @@ export default {
             },
             {
               id: 6,
-              image: "./src/img/projects/projects_HTML_CSS_VueJS/yugioh.png",
+              image: "./img_projects/projects_HTML_CSS_VueJS/yugioh.png",
               name: "Yu-Gi-Oh con Vite",
               technologies:"HTML - CSS - Vue.js - Vite",
               collaborators: "No",
@@ -332,7 +332,7 @@ export default {
             },
             {
               id: 7,
-              image: "./src/img/projects/projects_HTML_CSS_VueJS/boolflix.png",
+              image: "./img_projects/projects_HTML_CSS_VueJS/boolflix.png",
               name: "Boolflix",
               technologies:"HTML - CSS - Vue.js - Vite",
               collaborators: "No",
@@ -342,7 +342,7 @@ export default {
             },
             {
               id: 8,
-              image: "./src/img/projects/projects_HTML_CSS_VueJS/schoolchess.png",
+              image: "./img_projects/projects_HTML_CSS_VueJS/schoolchess.png",
               name: "School Chess",
               technologies:"HTML - CSS - Vue.js",
               collaborators: "No",
@@ -353,11 +353,11 @@ export default {
           ],
         },
         {
-          projectTypes: "Projects Boolean [PHP]",
+          projectTypes: "Progetti Boolean [PHP]",
           arrProjects: [
             {
               id: 1,
-              image: "./src/img/projects/projects_PHP/php.png",
+              image: "./img_projects/projects_PHP/php.png",
               name: "Badwords",
               technologies:"PHP",
               collaborators: "No",
@@ -367,7 +367,7 @@ export default {
             },
             {
               id: 2,
-              image: "./src/img/projects/projects_PHP/php.png",
+              image: "./img_projects/projects_PHP/php.png",
               name: "Hotel",
               technologies:"PHP",
               collaborators: "No",
@@ -377,7 +377,7 @@ export default {
             },
             {
               id: 3,
-              image: "./src/img/projects/projects_PHP/php.png",
+              image: "./img_projects/projects_PHP/php.png",
               name: "Strong Password Generator",
               technologies:"PHP",
               collaborators: "No",
@@ -387,7 +387,7 @@ export default {
             },
             {
               id: 4,
-              image: "./src/img/projects/projects_PHP/php.png",
+              image: "./img_projects/projects_PHP/php.png",
               name: "Dischi",
               technologies:"PHP",
               collaborators: "No",
@@ -397,7 +397,7 @@ export default {
             },
             {
               id: 5,
-              image: "./src/img/projects/projects_PHP/php.png",
+              image: "./img_projects/projects_PHP/php.png",
               name: "PHP OOP 1",
               technologies:"PHP",
               collaborators: "No",
@@ -407,7 +407,7 @@ export default {
             },
             {
               id: 6,
-              image: "./src/img/projects/projects_PHP/php.png",
+              image: "./img_projects/projects_PHP/php.png",
               name: "PHP OOP 2",
               technologies:"PHP",
               collaborators: "No",
@@ -418,11 +418,11 @@ export default {
           ],
         },
         {
-          projectTypes: "Projects Boolean [Database]",
+          projectTypes: "Progetti Boolean [Database]",
           arrProjects: [
             {
               id: 1,
-              image: "./src/img/projects/projects_Database/mysql.webp",
+              image: "./img_projects/projects_Database/mysql.webp",
               name: "First Database",
               technologies:"Database",
               collaborators: "No",
@@ -432,7 +432,7 @@ export default {
             },
             {
               id: 2,
-              image: "./src/img/projects/projects_Database/mysql.webp",
+              image: "./img_projects/projects_Database/mysql.webp",
               name: "University Database",
               technologies:"Database",
               collaborators: "No",
@@ -442,7 +442,7 @@ export default {
             },
             {
               id: 3,
-              image: "./src/img/projects/projects_Database/DBeaver.png",
+              image: "./img_projects/projects_Database/DBeaver.png",
               name: "Videogames Database",
               technologies:"Database",
               collaborators: "No",
@@ -452,7 +452,7 @@ export default {
             },
             {
               id: 4,
-              image: "./src/img/projects/projects_Database/DBeaver.png",
+              image: "./img_projects/projects_Database/DBeaver.png",
               name: "Videogames Database - Query",
               technologies:"Database",
               collaborators: "No",
@@ -463,11 +463,11 @@ export default {
           ]
         },
         {
-          projectTypes: "Projects Boolean [Laravel]",
+          projectTypes: "Progetti Boolean [Laravel]",
           arrProjects: [
             {
               id: 1,
-              image: "./src/img/projects/projects_Laravel/laravel.jpg",
+              image: "./img_projects/projects_Laravel/laravel.jpg",
               name: "Laravel DC Comics",
               technologies:"Laravel",
               collaborators: "No",
@@ -477,7 +477,7 @@ export default {
             },
             {
               id: 2,
-              image: "./src/img/projects/projects_Laravel/laravel.jpg",
+              image: "./img_projects/projects_Laravel/laravel.jpg",
               name: "Laravel Boolean",
               technologies:"Laravel",
               collaborators: "Paolo Falco, Antonio Nicolaci, Alessandra Casu, Gary Smith Alvarez Venturo, Renato Taccogna, Pierluca Strianese",
@@ -487,7 +487,7 @@ export default {
             },
             {
               id: 3,
-              image: "./src/img/projects/projects_Laravel/laravel.jpg",
+              image: "./img_projects/projects_Laravel/laravel.jpg",
               name: "DC Comics",
               technologies:"Laravel",
               collaborators: "No",
@@ -498,11 +498,11 @@ export default {
           ]
         },
         {
-          projectTypes: "Projects Boolean Completi [Laravel + Vue]",
+          projectTypes: "Progetti Boolean Completi [Laravel + Vue]",
           arrProjects: [
             {
               id: 1,
-              image: "./src/img/projects/projects_Laravel/laravel.jpg",
+              image: "./img_projects/projects_LaravelVueJS/laravel.jpg",
               name: "Laravel Api",
               technologies:"Laravel",
               collaborators: "No",
@@ -512,7 +512,7 @@ export default {
             },
             {
               id: 2,
-              image: "./src/img/projects/projects_LaravelVueJS/vueJS.png",
+              image: "./img_projects/projects_LaravelVueJS/vueJS.png",
               name: "Boolfolio",
               technologies:"HTML - CSS - VueJS",
               collaborators: "No",
@@ -522,7 +522,7 @@ export default {
             },
             {
               id: 3,
-              image: "./src/img/projects/projects_Laravel/laravel.jpg",
+              image: "./img_projects/projects_LaravelVueJS/laravel.jpg",
               name: "Laravel Router Backend",
               technologies:"Laravel",
               collaborators: "No",
@@ -532,7 +532,7 @@ export default {
             },
             {
               id: 4,
-              image: "./src/img/projects/projects_LaravelVueJS/vueJS.png",
+              image: "./img_projects/projects_LaravelVueJS/vueJS.png",
               name: "Vue Router Frontoffice",
               technologies:"HTML - CSS - VueJS",
               collaborators: "Antonio NIcolaci, Paolo Falco, Cristian Lazzari, Gianluca Giardella, Vincenzo Minardi",
@@ -543,11 +543,11 @@ export default {
           ],
         },
         {
-          projectTypes: "Projects Finali [Laravel + Vue - Java]",
+          projectTypes: "Progetti Finali [Laravel + Vue - Java]",
           arrProjects: [
             {
               id: 1,
-              image: "./src/img/projects/projects_LaravelVueJS/laravel.jpg",
+              image: "./img_projects/projects_LaravelVueJS/laravel.jpg",
               name: "Personal Site - Back Office",
               technologies:"PHP Laravel",
               collaborators: "No",
@@ -557,7 +557,7 @@ export default {
             },
             {
               id: 2,
-              image: "./src/img/projects/projects_LaravelVueJS/laravel.jpg",
+              image: "./img_projects/projects_LaravelVueJS/laravel.jpg",
               name: "Doctor's Site - Back Office",
               technologies:"PHP Laravel",
               collaborators: "No",
@@ -567,7 +567,7 @@ export default {
             },
             {
               id: 4,
-              image: "./src/img/projects/projects_Java/Photos.png",
+              image: "./img_projects/projects_Java/Photos.png",
               name: "Photo's site",
               technologies:"Java",
               collaborators: "No",

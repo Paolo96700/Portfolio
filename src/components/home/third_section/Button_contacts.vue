@@ -2,7 +2,7 @@
     <a href="/contacts">
         <button class="cti">
             <div class="CTI">
-                contacts
+                Contatti
             </div>
         </button>
     </a>

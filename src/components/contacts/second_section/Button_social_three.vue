@@ -1,7 +1,7 @@
 <template>
     <a href="https://www.linkedin.com/in/paolo-falco/" target="_blank">
         <button
-            class="group hover:bg-sky-600 relative bg-sky-700 rounded-full text-neutral-50 duration-500 font-bold flex justify-center gap-2 items-center p-1.5 mt-2.5 border-2"
+            class="group hover:bg-sky-600 relative bg-sky-700 rounded-full text-neutral-50 duration-500 font-bold flex justify-center items-center p-1.5 mt-2.5 border-2"
         >
             <svg
                 class="w-8 h-8 fill-neutral-50 p-1"

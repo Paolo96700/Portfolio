@@ -76,7 +76,7 @@
     <section class="second_section">
         <div class="container flex flex-col m-auto justify-center items-center">
             
-            <h5 class="text-3xl font-bold text-gray-100 mb-14">Skill</h5>
+            <h5 class="text-3xl font-bold text-gray-100 mb-14">Skills</h5>
 
             <div class="sub_container flex flex-wrap gap-6 justify-center">
                 <div  class="sub_sub_container flex flex-col justify-center items-center p-6 bg-gray-900 rounded-lg shadow hover:bg-gray-800 dark:bg-gray-800      dark:border-gray-800 dark:hover:bg-gray-800">
