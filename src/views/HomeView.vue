@@ -70,7 +70,7 @@
             class="flex flex-col items-center" 
             data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500"
             >
-                <img src="../img/img_profile/Paolo.jpeg" alt="" class="w-64 rounded-full">
+                <img src="../img/img_profile/Paolo.jpeg" alt="" class="w-96 rounded-full mb-8">
                 <h3 class="text-4xl mb-3 lg:mb-0">Paolo Falco</h3>
                 <h5 class="text-2xl font-bold text-center mb-3 lg:mb-0">Jr. Full Stack Web Developer</h5>
                 
@@ -329,5 +329,10 @@
         background-size: cover;
     }
 
+    @media (max-width:450px){
+        .section {
+            padding: 50px;
+        }
+    }
 
 </style>
