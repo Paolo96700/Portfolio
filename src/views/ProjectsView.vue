@@ -231,7 +231,7 @@ export default {
               technologies:"HTML - CSS - JS",
               collaborators: "No",
               description:"Campo Minato Dom",
-              link: "https://campominato-dom-paolo.netlify.app",
+              link: "https://campominato-dom-paolo.netlify.app/",
               github: "https://github.com/Boolean-projects-paolo-js/js-campominato-dom",
             },
             {
