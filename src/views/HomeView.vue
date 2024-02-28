@@ -202,7 +202,10 @@
             </div>
             <div class="flex flex-col items-center">
                 <h5 class="text-2xl lg:text-3xl my-12 font-bold">Ecco i miei contatti!</h5>
-                <Button_contacts />
+                <RouterLink to="/contacts">
+                    <Button_contacts />
+                </RouterLink>
+                
             </div>
         </div>
     </section>
